@@ -2183,5 +2183,17 @@ body.homepage.is-preload #header:after {
   }
 }
 
+@media screen and (max-width: 768px) {
+  #footer .row > section {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  #footer .image.featured img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 300px; /* Adjust the maximum height for intermediate screen sizes */
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
