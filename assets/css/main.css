@@ -2183,7 +2183,7 @@ body.homepage.is-preload #header:after {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   #footer .row > section {
     width: 100%;
     margin-bottom: 1em;
